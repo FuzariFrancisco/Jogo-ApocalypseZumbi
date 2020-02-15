@@ -21,6 +21,16 @@ public class ControlaJogador : MonoBehaviour
 
         transform.Translate(direcao * velocidade * Time.deltaTime);
 
+        if (direcao != Vector3.zero)
+        {
+            GetComponent<Animator>().SetBool("Movendo", true);
+        }
+        else
+        {
+            GetComponent<Animator>().SetBool("Movendo", false);
+        }
+        
+
         
     }
 }
