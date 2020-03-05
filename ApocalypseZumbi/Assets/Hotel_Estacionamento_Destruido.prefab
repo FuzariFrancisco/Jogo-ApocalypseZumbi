@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8463797951283155379}
   - component: {fileID: 8463797951282352531}
   - component: {fileID: 8463797951281255251}
-  m_Layer: 0
+  m_Layer: 31
   m_Name: Hotel_Estacionamento_Destruido
   m_TagString: Untagged
   m_Icon: {fileID: 0}

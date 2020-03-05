@@ -321,7 +321,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
   m_LocalRotation: {x: 0.19822736, y: -0, z: -0, w: 0.9801561}
-  m_LocalPosition: {x: -26.167, y: 6.1, z: -19.18}
+  m_LocalPosition: {x: -26.167, y: 5.5, z: -14.28}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -381,7 +381,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4610746654156704, guid: 4b3bb44effa49480d8d18049684cc33a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.1
+      value: 0.34
       objectReference: {fileID: 0}
     - target: {fileID: 4610746654156704, guid: 4b3bb44effa49480d8d18049684cc33a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -405,7 +405,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4610746654156704, guid: 4b3bb44effa49480d8d18049684cc33a, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4610746654156704, guid: 4b3bb44effa49480d8d18049684cc33a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -524,6 +524,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2591728677245377185, guid: 35861510587b7489780fe86970823679,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5820034797898830620, guid: 35861510587b7489780fe86970823679,
         type: 3}
       propertyPath: jogador
@@ -541,6 +546,10 @@ PrefabInstance:
     - target: {fileID: 1344966759156106, guid: 165c63e06bedd476890c8366e8b09d85, type: 3}
       propertyPath: m_Name
       value: Rua_Reta_Grande_Destruido
+      objectReference: {fileID: 0}
+    - target: {fileID: 1344966759156106, guid: 165c63e06bedd476890c8366e8b09d85, type: 3}
+      propertyPath: m_Layer
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 4189152451497364, guid: 165c63e06bedd476890c8366e8b09d85, type: 3}
       propertyPath: m_LocalPosition.x
@@ -572,7 +581,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4189152451497364, guid: 165c63e06bedd476890c8366e8b09d85, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4189152451497364, guid: 165c63e06bedd476890c8366e8b09d85, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -649,6 +658,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2591728677245377185, guid: 35861510587b7489780fe86970823679,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5820034797898830620, guid: 35861510587b7489780fe86970823679,
         type: 3}
       propertyPath: jogador
@@ -666,6 +680,10 @@ PrefabInstance:
     - target: {fileID: 1437694135535552, guid: 68d2e588be11c45b5bcef522aa3f7cca, type: 3}
       propertyPath: m_Name
       value: Rua_Canto
+      objectReference: {fileID: 0}
+    - target: {fileID: 1437694135535552, guid: 68d2e588be11c45b5bcef522aa3f7cca, type: 3}
+      propertyPath: m_Layer
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 4585601856761568, guid: 68d2e588be11c45b5bcef522aa3f7cca, type: 3}
       propertyPath: m_LocalPosition.x
@@ -736,13 +754,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1462885472}
-  m_LocalRotation: {x: -0.50000006, y: -0.5, z: -0.5, w: 0.50000006}
-  m_LocalPosition: {x: -0.0064703226, y: 0.21400009, z: 0.954278}
+  m_LocalRotation: {x: -0.011797873, y: -0.0117976945, z: -0.7070084, w: 0.7070083}
+  m_LocalPosition: {x: -0.006510496, y: 0.21400009, z: 0.954278}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2033307224}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -1.9120001, y: 0, z: -90.00001}
 --- !u!1001 &1559824313
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -798,6 +816,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2591728677245377185, guid: 35861510587b7489780fe86970823679,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5820034797898830620, guid: 35861510587b7489780fe86970823679,
         type: 3}
       propertyPath: jogador
@@ -840,6 +863,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidade: 10
+  mascaraChao:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!95 &1672361768
 Animator:
   serializedVersion: 3
@@ -897,6 +923,10 @@ PrefabInstance:
     - target: {fileID: 1437694135535552, guid: 68d2e588be11c45b5bcef522aa3f7cca, type: 3}
       propertyPath: m_Name
       value: Rua_Canto (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1437694135535552, guid: 68d2e588be11c45b5bcef522aa3f7cca, type: 3}
+      propertyPath: m_Layer
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 4585601856761568, guid: 68d2e588be11c45b5bcef522aa3f7cca, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1099,6 +1129,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hotel_Estacionamento_Destruido
       objectReference: {fileID: 0}
+    - target: {fileID: 8463797951283514771, guid: 14338ac795556354a8f5eb89d113d059,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14338ac795556354a8f5eb89d113d059, type: 3}
 --- !u!1001 &5404830172860529700
@@ -1163,10 +1198,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5792017797692678392, guid: 66d308e1749c8ec428af14552004cb92,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5792017797692678394, guid: 66d308e1749c8ec428af14552004cb92,
         type: 3}
       propertyPath: m_Name
       value: Hotel_Secundario_Destruido
+      objectReference: {fileID: 0}
+    - target: {fileID: 5792017797692678394, guid: 66d308e1749c8ec428af14552004cb92,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5792017797692678398, guid: 66d308e1749c8ec428af14552004cb92,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 66d308e1749c8ec428af14552004cb92, type: 3}
@@ -1232,10 +1282,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5110398936537235890, guid: bff13c43a78de6e43a109e293a8fa754,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5110398936537235892, guid: bff13c43a78de6e43a109e293a8fa754,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5110398936537235894, guid: bff13c43a78de6e43a109e293a8fa754,
         type: 3}
       propertyPath: m_Name
       value: Hotel_Destruido
+      objectReference: {fileID: 0}
+    - target: {fileID: 5110398936537235894, guid: bff13c43a78de6e43a109e293a8fa754,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bff13c43a78de6e43a109e293a8fa754, type: 3}
