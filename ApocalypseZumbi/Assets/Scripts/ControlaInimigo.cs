@@ -9,7 +9,17 @@ public class ControlaInimigo : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        jogador = GameObject.FindWithTag("Jogador");
+        int geraTipoZumbi = Random.Range(1, 28);
+        transform.GetChild(geraTipoZumbi).gameObject.SetActive(true);
+    }
+
+    void AtacaJogador()
+    {
+        Time.timeScale = 0;
         
+        jogador.GetComponent<ControlaJogador>().textoGameOver.SetActive(true);
+        jogador.GetComponent<ControlaJogador>().vivo = false;
     }
 
     // Update is called once per frame
@@ -21,14 +31,14 @@ public class ControlaInimigo : MonoBehaviour
         {
             GetComponent<Animator>().SetBool("Atacando", false);
             GetComponent<Rigidbody>().MovePosition(GetComponent<Rigidbody>().position + direcao.normalized * velocidade * Time.deltaTime);
-            Quaternion novaRotacao;
-            novaRotacao = Quaternion.LookRotation(direcao);
-            GetComponent<Rigidbody>().MoveRotation(novaRotacao);
+            
         }
         else
         {
             GetComponent<Animator>().SetBool("Atacando", true);
         }
-            
+        Quaternion novaRotacao;
+        novaRotacao = Quaternion.LookRotation(direcao);
+        GetComponent<Rigidbody>().MoveRotation(novaRotacao);
     }
 }
